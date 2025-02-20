@@ -12,7 +12,7 @@ def a_times_b_plus_c(a: np.ndarray, b: np.ndarray, c: np.ndarray)-> np.ndarray:
     Returns:
         np.ndarray: 
     """
-    raise NotImplementedError("Need to implement for task 1.1")
+    return a*b+c
 
 def add_gaussian_noise(a: np.ndarray)-> np.ndarray:
     """
